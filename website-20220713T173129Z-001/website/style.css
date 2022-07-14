@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.bgimage{
+	background-image: url('Full HD1.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+   
+}
+.bgimage1{
+    background-image: url('image-1 (1) - Copy.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 120vh;
+
+}
+.bgimage2{ 
+	background-image: url(' 3.png');
+	background-size: 100% 120%;
+	width: 100%;
+	height: 120vh;
+}
+
+ 
+
+
+ 
+
+
+
+.menu{
+    width: 100%;
+    height: 0vh;
+    background-color:rgb(249, 232, 6);
+     
+}
+
+.menu .leftmenu{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    position: absolute;
+    margin-top: 20px;
+     
+}
+.rightmenu{
+    width:60%;
+	height: 40px;
+	float: right;
+    color: darkorange;
+}
+ 
+
+ 
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 25px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 80px;
+    align-items: left;
+}
+
+ 
+
+
+
+.banner{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 150px;
+    color: #fff;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+
+}
+
+.app-text h3{
+    margin-top: 100px;
+    font-size: 17px;
+    color: rgb(255, 0, 0);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.app-text h1{
+    font-size: 51px;
+    position: relative;
+    color: rgb(255, 213, 0);
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1;
+    
+
+}
+
+.app-text p{
+    font-size: 19px;
+    margin: 30px 30px 30 px 0;
+    letter-spacing: 1px;
+    color: rgb(249, 0, 0);
+    padding-right: 250px;
+}
+
+.btn-group{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.btn-group .signup-btn{
+    cursor: pointer;
+    display: block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 32px;
+    background-color: #ffa037;
+    padding: 15px 50px;
+}
+
+.btn-group .play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.btn-group span{
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto 20px;
+    cursor: pointer;
+}
+
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+.play-btn-inner i{
+    padding: 15px 19px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about-services{
+    position: absolute;
+    top: 125%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 300px;
+}
+
+.about-services ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.about-services ul li{
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.about-services ul li img{
+    width: 120px;
+    height: auto;
+}
+
+.about-services ul li h1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about-services ul li p{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.social-icons{
+    position: fixed;
+    right: 30px;
+    top: 30%;
+}
+.login-btn{
+    color: rgb(255, 255, 255);
+    width: 70%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+     
+     
+    
+ 
+
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: rgb(255, 225, 0);
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background:  rgb(255, 225, 0);
+    color: white;
+  }
+
+  .menu-buttons{
+    display: inline-flex;
+    height: 30px;
+    padding: 2px;
+    background: rgb(255, 225, 0);
+    border-radius: 2px;
+    overflow: hidden;
+    font-family: sans-serif;
+    
+  }
+
+  .my-button {
+    width: 100px;
+    background-color: rgb(255, 225, 0);
+    font-family: 'Montserrat',serif;
+    border-style: none;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 0.4s;
+  }
+  .mainDiv{
+	position:relative;
+	width: 206px;
+	height: 190px;
+	margin-left:-20px;
+  }
+  .square{
+	width:100px;
+	height:100px;
+	background-image: url('cube2.jfif');
+	border:solid 2px rgb(20, 18, 18);
+	transform: skew(180deg,210deg);
+	position: absolute;
+	top: 43px;
+	background-size: cover;
+  }
+  .square2{
+	width:100px;
+	height:100px;
+	background-image: url('cube5.jfif');
+	border:solid 2px rgb(15, 4, 4);
+	transform: skew(180deg,150deg);
+	position: absolute;
+	left:102px;
+	top: 43px;
+	background-size: cover;
+  }
+  .square3{
+	width:114px;
+	height:100px;
+	background-image: url('cube5.jfif');
+	background-size: cover;
+	border:solid 2px rgb(19, 18, 18);
+   
+  
+  transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+	position: absolute;
+	left: 0px;
+	top: -32px;
+  }
+  .side{
+    align-content:center;
+	margin-top:5px;
+	margin-left:5px;
+	position: absolute;
+	height:auto;
+	width:90%;
+	 
+	border-radius:20px;
+	padding-top:70px;
+	padding-bottom:20px;
+	padding-left:30px;
+  }
+.content{
+	margin-top:-250px;
+	margin-left:200px;
+}
