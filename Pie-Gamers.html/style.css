@@ -1,0 +1,190 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+    
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(24, 30, 33, 0);
+}
+/*!
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ /*# sourceMappingURL=bootstrap.min.css.map */
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 50px;
+	font-weight: bold;
+	color: rgba(244, 9, 201, 0.813);
+	font-size: 32px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:rgb(255, 0, 0);
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:rgb(249, 5, 90);
+}
+
+.text h4{
+
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#nk-contacts-top{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(24, 30, 33, 0);
+
+}
+#container{
+	width: 10%;
+	line-height: 10%;
+	float: right;
+
+}
+
+
+ 
+	
+ 
+ 
+ 
+
+.bgimage1{
+	background-image: url(' heic0910h.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+
+@media only screen and (max-width: 700px){
+    span
+    {
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}
+
+.mainDiv{
+	position:relative;
+	width: 206px;
+	height: 190px;
+	margin-left:-20px;
+  }
+  .square{
+	width:100px;
+	height:100px;
+	background-image: url('cube2.jfif');
+	border:solid 2px rgb(20, 18, 18);
+	transform: skew(180deg,210deg);
+	position: absolute;
+	top: 43px;
+	background-size: cover;
+  }
+  .square2{
+	width:100px;
+	height:100px;
+	background-image: url('cube5.jfif');
+	border:solid 2px rgb(15, 4, 4);
+	transform: skew(180deg,150deg);
+	position: absolute;
+	left:102px;
+	top: 43px;
+	background-size: cover;
+  }
+  .square3{
+	width:114px;
+	height:100px;
+	background-image: url('cube5.jfif');
+	background-size: cover;
+	border:solid 2px rgb(19, 18, 18);
+   
+  
+  transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+	position: absolute;
+	left: 0px;
+	top: -32px;
+  }
+  .side{
+    align-content:center;
+	margin-top:5px;
+	margin-left:5px;
+	position: absolute;
+	height:auto;
+	width:90%;
+	background-color: aliceblue;
+	border-radius:20px;
+	padding-top:70px;
+	padding-bottom:20px;
+	padding-left:30px;
+  }
+.content{
+	margin-top:-250px;
+	margin-left:200px;
+}
+
+
